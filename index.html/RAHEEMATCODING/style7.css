@@ -1,0 +1,258 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
+
+/*Global*/
+.contaainer{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 30px;
+    background: red;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-weight: bolder;
+}
+       
+header{
+    background:floralwhite;
+    color: #f08;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f08 3px solid;
+}
+header a{
+    color: #f08;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header nav{ 
+    float: right;
+    margin-top: 25px;
+    
+}
+header a:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: orange;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    }
+
+header .current a{
+    color: white;
+    font-weight: bolder;
+    background: rgb(19, 173, 140);
+    padding: 15px 15px 15px 15px;
+    }
+
+    /*showcase*/
+
+    #showcase{
+        max-height: 600px;
+        background: url('webdevelopment.jpeg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        font-weight: bolder;
+        height: 400px;
+        padding-top: 30px;
+    }
+    #showcase h1{
+       color: rgb(19, 173, 140);
+       margin-top: 10px;
+       font-size: 55px;
+       margin-bottom: 10px;    
+}
+#showcase p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+   
+#newsletter{
+ padding: 20px;
+ color: rgb(228, 55, 55);
+ background-color: #07d7d7;
+ height: 70px;
+ 
+ }
+
+ #newsletter h1{
+       float: left;
+       margin-top: 20px;
+    
+    }
+    #newsletter form{
+        float: right;
+        margin-top: 15px;
+        font-weight: bolder;
+        padding-right: 50px;
+    }
+
+ #newsletter button{
+    color: white;
+    background-color: red;
+    border: none;
+    height: 30px;
+    
+    
+ }
+ 
+ #newsletter input {
+    padding: 4px;
+    height: 20px;
+    width: 250px;
+    border: none;
+    text-align: center;
+    color: #f08;
+    border-bottom: 3px solid red;
+ }
+ #boxes{
+    margin-top: 20px;
+
+ }
+
+  #box{
+    color: black;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    font-size: 16px;
+ }
+ #loop{
+    
+   
+    margin-top: 20px;
+    padding-top: 200px;
+ }
+ #foot1{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    background-color: aquamarine;
+    font-size: 16px;
+    padding-top: 70px;
+   
+    /*width: 20px;
+  color: aquamarine;
+  padding: 30px;
+  float: left;
+  */
+  }
+  #foot2{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 40px;
+    background-color: aquamarine;
+    font-size: 16px;
+    
+  /*width: 20px;
+  color: aquamarine;
+  padding: 30px;
+  float: left;
+  */
+}
+  
+#foot3{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 40px;
+    background-color: aquamarine;
+    font-size: 16px;
+    /*
+    width: 20px;
+    color: aquamarine;
+    padding: 17px;
+    float: left;
+    */
+}
+    
+#foot4{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 40px;
+    background-color: aquamarine;
+    font-size: 16px;    
+    
+    /*
+    width: 20px;
+    color: aquamarine;
+    padding: 17px;
+    float: left;
+    */
+}
+ 
+
+
+
+.shams{
+    color: black;
+    font-size: 20px;
+    
+}
+.ayo3{
+    width: 320px;
+    background-color: black;
+    height: 300px;
+    float: right;
+    
+    
+}
+.ayo3 h3{
+    color: aqua;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.drey{
+    color: aqua;
+    font-size: 16px;
+    margin: 20px;
+    
+    
+}
+.ayo{
+    font-size: 16px;
+    width: 700px;
+    padding-top: 20px;
+}
+.ayo2{
+    height: 120px;
+    width: 700px;
+    background-color: black;
+}
+.ayo2 .jjj{
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+    color: aqua;
+}
